@@ -22,7 +22,7 @@ outputs:
         - JSON
 params:
     env: production # to enable google analytics, opengraph, twitter-cards and schema.
-    description: "Homepage for my blog, pmy.pt3.uk"
+    description: "The Presently Unaffiliated Society for Doctor Who"
     author: Soctor Who Committee
     # author: ["Me", "You"] # multiple authors
     #images: ["./images/logo.png"]
