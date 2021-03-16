@@ -3,6 +3,9 @@ members:
       title: President
       name: Peter Taylor
       image: n/a
+      website: https://pmy.pt3.uk
+      twitter: https://twitter.com/pmypt3
+      email: pmy@pt3.uk
     - identifier: coordinator
       title: Coordinator
       name: idk
@@ -19,3 +22,6 @@ members:
       title: Tin Dog
       name: Zac Garby
       image: n/a
+      website: https://zacgarby.co.uk
+      twitter: https://twitter.com/zacgarby
+      email: me@zacgarby.co.uk

@@ -1,17 +1,37 @@
 {{ define "main" }}
 <main>
-    <div>
-        {{ .Content }}
-    </div>
-    <div id="committee">
-    {{ range .Site.Data.committee.members }}
-        <div class="card">
-            <img src="http://placekitten.com/160/160" alt="Profile Photo">
-            <h3>{{ .title }}</h3>
-            {{ .name }}
+    <article>
+        <h1>{{ .Title }}</h1>
+        <div>
+            {{ .Content }}
         </div>
-    {{ end }}
-    </div>
-    {{ partial "election" }}
+        <div id="committee">
+        {{ range .Site.Data.committee.members }}
+            <div class="card">
+                <img src="http://placekitten.com/160/160" alt="Profile Photo">
+                <h3>{{ .title }}</h3>
+                {{ .name }}
+                <ul class="contact">
+                    {{ if .website }}
+                    <li>
+                        <a href="{{ .website }}"><img src="/img/globe.svg" alt=""></a>
+                    </li>
+                    {{ end }}
+                    {{ if .twitter }}
+                    <li>
+                        <a href="{{ .twitter }}"><img src="/img/twitter.svg" alt=""></a>
+                    </li>
+                    {{ end }}
+                    {{ if .email }}
+                    <li>
+                        <a href="{{ .email }}"><img src="/img/mail.svg" alt=""></a>
+                    </li>
+                    {{ end }}
+                </ul>
+            </div>
+        {{ end }}
+        </div>
+        {{ partial "election" }}
+    </article>
 </main>
 {{ end }}
