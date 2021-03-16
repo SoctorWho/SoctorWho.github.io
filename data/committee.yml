@@ -1,0 +1,27 @@
+members:
+    - identifier: president
+      title: President
+      name: Peter Taylor
+      image: n/a
+      website: https://pmy.pt3.uk
+      twitter: https://twitter.com/pmypt3
+      email: pmy@pt3.uk
+    - identifier: coordinator
+      title: Coordinator
+      name: idk
+      image: n/a
+    - identifier: treasurer
+      title: Treasurer
+      name: JR Bainbridge Perhaps
+      image: n/a
+    - identifier: wellbeing-social
+      title: Wellbeing & Social Media Secretary
+      name: Cami Perhaps
+      image: n/a
+    - identifier: tin-dog
+      title: Tin Dog
+      name: Zac Garby
+      image: n/a
+      website: https://zacgarby.co.uk
+      twitter: https://twitter.com/zacgarby
+      email: me@zacgarby.co.uk

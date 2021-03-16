@@ -1,0 +1,127 @@
+* {
+    color: #0c0c0c;
+    font-family: 'Recursive', sans-serif;
+}
+
+h1, h2, h3, a {
+    color: #3c57c3;
+}
+
+nav {
+    width: 850px;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav div.buttons {
+    display: inline-flex;
+    flex-direction: row;
+    width: 300px;
+}
+
+nav div.buttons.left {
+    flex-direction: row-reverse;
+}
+
+nav a {
+    display: inline;
+    padding: 15px;
+    text-decoration: none;
+}
+
+a#join {
+    padding: 8px;
+    margin: 20px;
+    border: 2px solid #3c57c3;
+    border-radius: 6px;
+    font-size: 15pt;
+    font-weight: bold;
+}
+
+nav img {
+    vertical-align: middle;
+}
+
+main {
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div#calendar {
+    width: 600px;
+    height: 400px;
+    border: 1px solid black;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+time.post-date {
+    color: #666;
+}
+
+div#paginator {
+    text-align: right;
+}
+
+div#split {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+div#split div {
+    padding: 10px;
+    padding-top: 0;
+}
+
+div#split h2 {
+    margin-top: 0;
+}
+
+footer {
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+footer * {
+    color: #666;
+}
+
+div#committee {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+div#committee div.card {
+    width: 160px;
+    height: 250px;
+    margin: 10px;
+}
+
+div#committee div.card h3 {
+    margin: 0;
+}
+
+ul.contact {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    padding-top: 5px;
+}
+
+ul.contact li {
+    display: inline;
+}
+
+ul.contact img {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}

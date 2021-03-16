@@ -1,10 +1,19 @@
 {{ define "main" }}
 	<main>
-		{{ $paginator := .Paginate (where .Site.RegularPages "Type" "in" .Site.Params.mainSections) }}
-		{{ range $paginator.Pages }}
-			{{ .Render "summary" }}
-		{{ end }}
-		{{ partial "pagination.html" . }}
+		{{ partial "calendar.html" }}
+		<div id="split">
+			<div class="left">
+				<h2>About Us</h2>
+				{{ partial "about.html" }}
+			</div>
+			<div class="right">
+				<h2>Blog</h2>
+				{{ $paginator := .Paginate (where .Site.RegularPages "Type" "in" .Site.Params.mainSections) }}
+				{{ range $paginator.Pages }}
+					{{ .Render "summary" }}
+				{{ end }}
+				{{ partial "pagination.html" . }}
+			</div>
+		</div>
 	</main>
-{{ partial "sidebar.html" . }}
 {{ end }}
