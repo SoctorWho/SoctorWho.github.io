@@ -5,7 +5,7 @@ members:
       image: n/a
       website: https://pmy.pt3.uk
       twitter: https://twitter.com/pmypt3
-      email: pmy@pt3.uk
+      email: mailto:pmy@pt3.uk
     - identifier: coordinator
       title: Coordinator
       name: idk
@@ -24,4 +24,4 @@ members:
       image: n/a
       website: https://zacgarby.co.uk
       twitter: https://twitter.com/zacgarby
-      email: me@zacgarby.co.uk
+      email: mailto:me@zacgarby.co.uk
