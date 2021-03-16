@@ -1,12 +1,15 @@
 <header>
-	<a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a>
-	{{ with .Site.Menus.main }}
 	<nav>
-		<ul>
+		<div class="buttons left">
+			<a id="join" href="/join">Join us!</a>
+		</div>
+		<a href="{{ .Site.BaseURL }}"><img src="/img/logo.png" alt="Soctor Who"></a>
+		<div class="buttons right">
+			{{ with .Site.Menus.main }}
 			{{ range . }}
-			<li><a href="{{ .URL | relURL }}">{{ .Name }}</a></li>
+			<a href="{{ .URL | relURL }}">{{ .Name }}</a>
 			{{ end }}
-		</ul>
+		</div>
 	</nav>
 	{{ end }}
 </header>

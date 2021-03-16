@@ -1,6 +1,6 @@
 baseURL: "https://soctorwh.ooo/"
 title: Soctor Who
-paginate: 5
+paginate: 10
 theme: soctor-who-theme
 
 enableInlineShortcodes: true
@@ -52,7 +52,7 @@ params:
 
     fuseOpts:
         isCaseSensitive: false
-        shouldSort: true
+        shouldSort: false
         location: 0
         distance: 1000
         threshold: 0.4
@@ -60,17 +60,13 @@ params:
         keys: ["title", "permalink", "summary", "content"]
 menu:
     main:
-        - identifier: categories
-          name: categories
-          url: /categories/
-          weight: 10
-        - identifier: tags
-          name: tags
-          url: /tags/
-          weight: 10
-        - identifier: search
-          name: search
-          url: /search/
+        - identifier: committee
+          name: Committee
+          url: /committee/
+          weight: 9
+        - identifier: about
+          name: About
+          url: /about/
           weight: 10
 
 taxonomies:
