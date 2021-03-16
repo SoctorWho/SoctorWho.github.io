@@ -1,11 +1,10 @@
 * {
-    box-sizing: border-box;
     color: #0c0c0c;
     font-family: 'Recursive', sans-serif;
 }
 
 h1, h2, h3, a {
-    color: #00006c;
+    color: #3c57c3;
 }
 
 nav {
@@ -34,7 +33,7 @@ nav a {
 a#join {
     padding: 8px;
     margin: 20px;
-    border: 2px solid #00006c;
+    border: 2px solid #3c57c3;
     border-radius: 6px;
     font-size: 15pt;
     font-weight: bold;
@@ -91,4 +90,21 @@ footer {
 
 footer * {
     color: #666;
+}
+
+div#committee {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+div#committee div.card {
+    width: 160px;
+    height: 250px;
+    margin: 10px;
+}
+
+div#committee div.card h3 {
+    margin: 0;
 }
