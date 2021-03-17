@@ -1,0 +1,1 @@
+As per the Student Union's regulation, our elections are run by Single Transferrable Vote (STV) at either an AGM or EGM. The AGM is normally run at the end of Summer term, but an EGM may be at any time of year, but will be publicised in advance of it.

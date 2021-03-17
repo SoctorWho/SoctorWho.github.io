@@ -31,7 +31,7 @@
             </div>
         {{ end }}
         </div>
-        {{ partial "election" }}
+        {{ readFile "info/election.md" | markdownify}}
     </article>
 </main>
 {{ end }}

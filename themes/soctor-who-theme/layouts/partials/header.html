@@ -1,9 +1,9 @@
 <header>
 	<nav>
 		<div class="buttons left">
-			<a id="join" href="goes to the su page">Join us!</a>
+			<a id="join" href="{{ .Site.Params.ButtonURL }}">{{ .Site.Params.ButtonText }}</a>
 		</div>
-		<a href="{{ .Site.BaseURL }}"><img src="/img/logo.svg" alt="Soctor Who"></a>
+		<a href="{{ .Site.BaseURL }}"><img src="{{ .Site.Params.LogoPath }}" alt="{{ .Site.Title }}"></a>
 		<div class="buttons right">
 			{{ with .Site.Menus.main }}
 			{{ range . }}

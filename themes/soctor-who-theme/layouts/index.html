@@ -4,7 +4,7 @@
 		<div id="split">
 			<div class="left">
 				<h2>About Us</h2>
-				{{ partial "about.html" }}
+				{{ readFile "info/about.md" | markdownify}}
 			</div>
 			<div class="right">
 				<h2>Blog</h2>

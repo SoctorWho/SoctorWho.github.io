@@ -5,6 +5,8 @@ layout: "about"
 summary: "about us"
 ---
 
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus repudiandae assumenda vel harum, nulla quam deserunt obcaecati quaerat odio sapiente debitis quidem, nihil laudantium! Expedita ut itaque pariatur corrupti ipsa!
+We are Soctor Who, a Doctor Who society yet to be affilliated to University of Nottingham Student's Union. We were founded in March 2021.
 
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque et natus autem atque consectetur quibusdam expedita ipsa debitis? Voluptatem quae adipisci velit officiis eius commodi minima? Minus nihil neque reiciendis.
+Our Constitution can be found [Here](#), and Changes to it can be Proposed at our AGMs or EGMs.
+
+Our Events are bound by our [Code of Conduct](#) which ensures that all people are welcome at our events. 
