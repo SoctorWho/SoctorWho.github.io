@@ -54,6 +54,13 @@ menu:
           name: Discord
           url: https://discord.com/invite/QjryVHe3hm
           weight: 11
+    footer:
+        - identifier: code-of-conduct
+          name: Code of Conduct
+          url: /code-of-conduct
+        - identifier: twitter
+          name: Twitter
+          url: https://twitter.com/SoctorWho
 
 taxonomies:
     category: categories
