@@ -61,6 +61,9 @@ menu:
         - identifier: twitter
           name: Twitter
           url: https://twitter.com/SoctorWho
+        - identifier: constitution
+          name: Constitution
+          url: https://github.com/Soctor-Who/constitution/releases/latest/download/constitution.pdf
 
 taxonomies:
     category: categories
