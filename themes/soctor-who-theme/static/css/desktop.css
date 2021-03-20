@@ -36,5 +36,9 @@
         margin: 20px;
         display: inline;
     }
+
+    footer {
+        width: 700px;
+    }
     
 }

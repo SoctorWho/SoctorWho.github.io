@@ -54,6 +54,12 @@ footer {
     text-align: center;
 }
 
+footer .flex {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 1em;
+}
+
 footer * {
     color: #666;
 }
