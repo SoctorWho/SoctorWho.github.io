@@ -92,6 +92,10 @@ ul.contact li {
     display: inline;
 }
 
+main {
+    margin-bottom:3em;
+}
+
 ul.contact img {
     width: 20px;
     height: 20px;
