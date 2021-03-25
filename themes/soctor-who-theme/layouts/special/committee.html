@@ -14,17 +14,22 @@
                 <ul class="contact">
                     {{ if .website }}
                     <li>
-                        <a href="{{ .website }}"><img src="/img/globe.svg" alt=""></a>
+                        <a href="{{ .website }}"><img src="/img/globe.svg" alt="website"></a>
                     </li>
                     {{ end }}
                     {{ if .twitter }}
                     <li>
-                        <a href="{{ .twitter }}"><img src="/img/twitter.svg" alt=""></a>
+                        <a href="{{ .twitter }}"><img src="/img/twitter.svg" alt="twitter"></a>
+                    </li>
+                    {{ end }}
+                    {{ if .instagram }}
+                    <li>
+                        <a href="{{ .instagram }}"><img src="/img/instagram.svg" alt="instagram"></a>
                     </li>
                     {{ end }}
                     {{ if .email }}
                     <li>
-                        <a href="{{ .email }}"><img src="/img/mail.svg" alt=""></a>
+                        <a href="{{ .email }}"><img src="/img/mail.svg" alt="email"></a>
                     </li>
                     {{ end }}
                 </ul>
