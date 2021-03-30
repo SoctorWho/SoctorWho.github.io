@@ -18,6 +18,13 @@ outputs:
         - HTML
         - RSS
         - JSON
+    section:
+        - HTML
+        - JSON
+    page:
+        - HTML
+        - JSON
+        
 params:
     env: production # to enable google analytics, opengraph, twitter-cards and schema.
     description: "The Presently Unaffiliated Society for Doctor Who"
