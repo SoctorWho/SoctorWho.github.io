@@ -1,3 +1,18 @@
+var months = [
+    "January",
+    "February",
+    "March",
+    "April",
+    "May",
+    "June",
+    "July",
+    "August",
+    "September",
+    "October",
+    "November",
+    "December",
+]
+
 var now = new Date();
 
 function loadCalendar() {
@@ -7,6 +22,11 @@ function loadCalendar() {
 function populateCalendar(year, month) {
     var tbody = document.getElementById("calendar-tbody");
     tbody.innerHTML = "";
+
+    document.getElementById("calendar-left").innerHTML = months[(month + 11) % 12];
+    document.getElementById("calendar-month").innerHTML = months[month] + " " + year;
+    document.getElementById("calendar-right").innerHTML = months[(month + 1) % 12];
+
 
     console.log("populating calendar. year = " + year.toString() + " month = " + month);
 
@@ -44,12 +64,14 @@ function populateCalendar(year, month) {
         }
     }
 
-    fetchEvents(renderEvents);
+    fetchEvents(evt => renderEvents(year, month, evt));
 }
 
-function renderEvents(events) {
+function renderEvents(year, month, events) {
     for (var event of events) {
         var date = new Date(event.date);
+
+        if (date.getFullYear() != year || date.getMonth() != month) continue;
 
         var evtEl = document.getElementById("day-" + date.getDate());
 
@@ -106,4 +128,14 @@ function fetchEvents(f) {
 
     req.open("GET", window.location.origin + "/events/index.json", true);
     req.send();
+}
+
+function changeMonth(d) {
+    now = new Date(now.getFullYear(), now.getMonth() + d, 1);
+    loadCalendar();
+}
+
+function resetMonth() {
+    now = new Date();
+    loadCalendar();
 }

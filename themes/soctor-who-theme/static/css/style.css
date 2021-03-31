@@ -30,7 +30,7 @@ a#join {
 table#calendar {
     width: 130%;
     height: 400px;
-    margin-top: 40px;
+    margin-top: 10px;
     margin-bottom: 40px;
     margin-left: -15%;
     margin-right: auto;
@@ -73,6 +73,41 @@ table#calendar div.time {
 
 table#calendar tbody tr {
     height: 80px;
+}
+
+div.calendar-nav {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+div.calendar-nav div {
+    cursor: pointer;
+    color: #3c57c3;
+    user-select: none;
+    text-align: center;
+}
+
+#calendar-left {
+    margin-left: 0;
+    margin-right: auto;
+    width: 100px;
+}
+
+#calendar-month {
+    font-weight: bold;
+    background-color: #3c57c3;
+    color: white;
+    padding: 8px;
+    border-radius: 4px;
+    idth: 150px;
+}
+
+#calendar-right {
+    margin-right: 0;
+    margin-left: auto;
+    width: 100px;
 }
 
 time.post-date {
