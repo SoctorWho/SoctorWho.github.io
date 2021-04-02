@@ -44,7 +44,7 @@ params:
         keys: ["title", "permalink", "summary", "content"]
 
     logoPath: /img/logo.svg
-    buttonText: "Join Us"
+    buttonText: "Join Us!"
     buttonURL: /
 
 menu:
