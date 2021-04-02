@@ -68,6 +68,8 @@ function populateCalendar(year, month) {
 }
 
 function renderEvents(year, month, events) {
+    console.log(events)
+    
     for (var event of events) {
         var date = new Date(event.date);
 
