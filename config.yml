@@ -6,7 +6,7 @@ theme: soctor-who-theme
 enableInlineShortcodes: true
 enableRobotsTXT: true
 buildDrafts: false
-buildFuture: false
+buildFuture: true
 buildExpired: false
 
 minify:
@@ -18,6 +18,13 @@ outputs:
         - HTML
         - RSS
         - JSON
+    section:
+        - HTML
+        - JSON
+    page:
+        - HTML
+        - JSON
+        
 params:
     env: production # to enable google analytics, opengraph, twitter-cards and schema.
     description: "The Presently Unaffiliated Society for Doctor Who"
@@ -37,7 +44,7 @@ params:
         keys: ["title", "permalink", "summary", "content"]
 
     logoPath: /img/logo.svg
-    buttonText: "Join Us"
+    buttonText: "Join Us!"
     buttonURL: /
 
 menu:
