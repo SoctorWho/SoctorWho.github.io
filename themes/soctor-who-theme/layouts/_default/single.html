@@ -2,6 +2,11 @@
 	<main>
 		<article>
 			<h1>{{ .Title }}</h1>
+			<h3>
+				{{ .Date.Format "Monday, January 2" }}{{ if .Params.time }}.
+				{{ .Params.time }}
+				{{ end }}
+			</h3>
 			<div>
 				{{ .Content }}
 			</div>
