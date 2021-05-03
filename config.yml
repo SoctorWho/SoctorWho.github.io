@@ -19,6 +19,7 @@ outputs:
         - RSS
         - JSON
     section:
+        - Calendar
         - HTML
         - JSON
     page:

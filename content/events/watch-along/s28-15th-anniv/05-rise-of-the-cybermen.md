@@ -2,6 +2,8 @@
 title: "Rise of the Cybermen"
 date: "2021-05-13"
 time: "6:45-8:00pm"
+start: "2021-05-13T18:45:00+01:00"
+end: "2021-05-13T20:00:00+01:00"
 ---
 
 Watch The Rise of the Cybermen with us on our Discord Server, 15 years to the minute (Prompt start at 7:00pm) after its first broadcast.

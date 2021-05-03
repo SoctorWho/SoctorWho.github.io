@@ -2,6 +2,8 @@
 title: "Army of Ghosts"
 date: "2021-07-01"
 time: "6:45-8:00pm"
+start: "2021-07-01T18:45:00+01:00"
+end: "2021-07-01T20:00:00+01:00"
 ---
 
 Watch Army of Ghosts with us on our Discord Server, 15 years to the minute (Prompt start at 7:00pm) after its first broadcast.
