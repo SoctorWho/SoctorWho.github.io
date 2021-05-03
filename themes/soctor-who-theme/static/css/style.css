@@ -189,3 +189,13 @@ ul.contact img {
 p {
     margin-top: 0;
 }
+
+.middle-link {
+    display: block;
+    text-align: center;
+    padding-bottom: 2em;
+}
+
+hr {
+    color: #3c57c3;
+}
